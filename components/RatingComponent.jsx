@@ -53,6 +53,7 @@ function RatingComponent() {
                 type="range"
                 name="range" 
                 ref={sliderRef}
+                label = "input"
                 min={8}
                 max={36}
                 step={4}
