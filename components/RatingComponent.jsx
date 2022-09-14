@@ -58,6 +58,7 @@ function RatingComponent() {
                 max={36}
                 step={4}
                 value = {price}
+                label = "input"
                 onChange={(e)=> {
                     setPrice(e.target.value)
                 }}
